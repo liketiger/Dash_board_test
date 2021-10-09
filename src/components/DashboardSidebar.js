@@ -19,7 +19,8 @@ import {
   ShoppingBag as ShoppingBagIcon,
   User as UserIcon,
   UserPlus as UserPlusIcon,
-  Users as UsersIcon
+  Users as UsersIcon,
+  Upload as UploadIcon,
 } from 'react-feather';
 import NavItem from './NavItem';
 
@@ -64,6 +65,11 @@ const items = [
     href: '/register',
     icon: UserPlusIcon,
     title: 'Register'
+  },
+  {
+    href: '/app/payment',
+    icon: UploadIcon,
+    title: 'Payment'
   },
   {
     href: '/404',

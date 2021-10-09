@@ -1,4 +1,5 @@
 import { Navigate } from 'react-router-dom';
+import Payment from './pages/Payment';
 import DashboardLayout from './components/DashboardLayout';
 import MainLayout from './components/MainLayout';
 import Account from './pages/Account';
@@ -20,6 +21,7 @@ const routes = [
       { path: 'dashboard', element: <Dashboard /> },
       { path: 'products', element: <ProductList /> },
       { path: 'settings', element: <Settings /> },
+      { path: 'payment', element: <Payment /> },
       { path: '*', element: <Navigate to="/404" /> }
     ]
   },
