@@ -1,0 +1,25 @@
+.whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-label {
+    display: inline;
+}
+
+.toggles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

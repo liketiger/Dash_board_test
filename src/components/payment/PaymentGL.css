@@ -1,0 +1,9 @@
+.boxy{
+    padding: 20px;
+}
+
+.whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
