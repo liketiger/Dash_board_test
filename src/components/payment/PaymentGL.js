@@ -11,7 +11,7 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 const PaymentGL = () => (
-  <div>
+  <div className="payment-whole">
     <div className="whole">
       <Box sx={{ width: '70%' }} className="boxy">
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
@@ -30,8 +30,6 @@ const PaymentGL = () => (
         </Grid>
       </Box>
     </div>
-    <br />
-    <br />
     <div className="whole">
       <Box sx={{ width: '70%' }} className="boxy">
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
